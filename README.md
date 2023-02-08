@@ -1,3 +1,16 @@
+# Primitive Standards (PSO) Extended
+
+## Styling
+
+- `N1` - Argument names with matching state variables have following underscores.
+- `N2` - Internal variables and functions have leading underscores.
+- `N3` - Natspec follows the format `/** */`.
+- `N4` - Code comments have are led by two forward slashes `//`.
+- `N5` - Functions calls of an inherited contract are led by `super.` in the parent contract.
+- `N6` - Structs are initialized using objects, e.g. `Struct({variable1: variable1});`.
+- `N7` - Events are named in the present tense.
+- `N8` - Non-idiomatic variable names have a glossary in the codebase that explains them.
+
 # The Solcurity Standard 
 
 Opinionated **security** and **code quality** standard for **Solidity smart contracts**. 
